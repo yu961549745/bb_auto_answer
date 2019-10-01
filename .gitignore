@@ -1,3 +1,4 @@
 .ropeproject
 chromedriver*
 *.xlsx
+log.txt

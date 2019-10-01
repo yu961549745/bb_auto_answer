@@ -72,6 +72,7 @@ for k in range(2, len(qs)):
         if isinstance(a, str):
             i = ss.apply(lambda s: fuzz.ratio(s, a)).idxmax()
         else:
+            # 选择题有答案没选项的情况
             i = a - 1
             print('WARNING: 有选项没答案, 原选项为 %s , 实际选项为 %s.' %
                   ('ABCD'[i], ss.iloc[i]))
