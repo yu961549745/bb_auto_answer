@@ -6,8 +6,12 @@ from fuzzywuzzy import fuzz
 from selenium import webdriver
 
 # %%  基本参数
-url = 'https://ks.wjx.top/jq/45065890.aspx'
+# url = 'https://ks.wjx.top/jq/45065890.aspx'
 # url = 'https://ks.wjx.top/jq/45065834.aspx'
+
+# url = 'https://ks.wjx.top/jq/101566776.aspx'
+# url = 'https://ks.wjx.top/jq/101567072.aspx'
+url = 'https://ks.wjx.top/jq/101565656.aspx'
 name = '刘彬'
 company = '分公司本部'
 # %% 加载答案
