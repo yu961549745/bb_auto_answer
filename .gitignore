@@ -2,3 +2,4 @@
 chromedriver*
 *.xlsx
 log.txt
+.idea
